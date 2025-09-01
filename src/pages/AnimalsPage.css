@@ -1,0 +1,129 @@
+.animals-page {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: calc(100vh - 200px);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  color: #2e7d32;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.page-header p {
+  color: #689f38;
+  font-size: 1.1rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+  position: relative;
+  flex: 1;
+  min-width: 250px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border: 2px solid #a5d6a7;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-box input:focus {
+  border-color: #2e7d32;
+}
+
+.search-box span {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #689f38;
+}
+
+.habitat-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.habitat-filter label {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.habitat-filter select {
+  padding: 0.8rem;
+  border: 2px solid #a5d6a7;
+  border-radius: 25px;
+  background: white;
+  color: #2e7d32;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.animals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+  border-radius: 15px;
+}
+
+.no-results h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.no-results p {
+  color: #689f38;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .search-box {
+    min-width: 100%;
+  }
+  
+  .habitat-filter {
+    justify-content: center;
+  }
+  
+  .animals-grid {
+    grid-template-columns: 1fr;
+  }
+}

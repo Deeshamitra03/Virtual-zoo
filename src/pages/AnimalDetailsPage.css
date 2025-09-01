@@ -1,0 +1,178 @@
+.animal-details {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 200px);
+}
+
+.back-link {
+  display: inline-block;
+  color: #2e7d32;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #ff9800;
+}
+
+.animal-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.animal-image {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.animal-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.animal-basic-info h1 {
+  color: #2e7d32;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.species {
+  font-style: italic;
+  color: #689f38;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.info-badges span {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.habitat {
+  background-color: #a5d6a7;
+  color: #1b5e20;
+}
+
+.diet {
+  background-color: #ffcc80;
+  color: #e65100;
+}
+
+.status {
+  background-color: #ef5350;
+  color: white;
+}
+
+.animal-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.description-section,
+.facts-section,
+.conservation-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.description-section h2,
+.facts-section h2,
+.conservation-section h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 2px solid #c8e6c9;
+  padding-bottom: 0.5rem;
+}
+
+.facts-section ul {
+  padding-left: 1.5rem;
+}
+
+.facts-section li {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.status-block {
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.status-block h3 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.critically-endangered {
+  background: linear-gradient(to right, #d32f2f, #f44336);
+}
+
+.endangered {
+  background: linear-gradient(to right, #f57c00, #ff9800);
+}
+
+.vulnerable {
+  background: linear-gradient(to right, #fbc02d, #ffeb3b);
+  color: #333;
+}
+
+.near-threatened {
+  background: linear-gradient(to right, #ffeb3b, #fff59d);
+  color: #333;
+}
+
+.least-concern {
+  background: linear-gradient(to right, #4caf50, #8bc34a);
+}
+
+.loading,
+.not-found {
+  text-align: center;
+  padding: 3rem;
+}
+
+.not-found h2 {
+  color: #d32f2f;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .animal-hero {
+    grid-template-columns: 1fr;
+  }
+  
+  .animal-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-badges {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

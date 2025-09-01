@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Bengal Tiger",
+    "species": "Panthera tigris tigris",
+    "image": "https://images.unsplash.com/photo-1562552476-8ac59b2a2e46?w=400",
+    "habitat": "Jungle",
+    "diet": "Carnivore",
+    "description": "The Bengal tiger is a population of the Panthera tigris tigris subspecies. It is one of the biggest wild cats alive today.",
+    "facts": ["Can run up to 40 mph", "Stripes are unique like fingerprints", "Excellent swimmer"],
+    "conservationStatus": "Endangered"
+  },
+  {
+    "id": 2,
+    "name": "Spider Monkey",
+    "species": "Ateles geoffroyi",
+    "image": "https://images.unsplash.com/photo-1533418471953-7a87f5e351ce?w=400",
+    "habitat": "Rainforest",
+    "diet": "Omnivore",
+    "description": "Spider monkeys are New World monkeys known for their long limbs and prehensile tails.",
+    "facts": ["Use tails as an extra limb", "Live in groups of 20-30", "Can swing through trees at 35 mph"],
+    "conservationStatus": "Endangered"
+  },
+  {
+    "id": 3,
+    "name": "Jaguar",
+    "species": "Panthera onca",
+    "image": "https://images.unsplash.com/photo-1603816245457-3bf3d5f64e35?w=400",
+    "habitat": "Rainforest",
+    "diet": "Carnivore",
+    "description": "The jaguar is the largest cat species in the Americas and the third-largest in the world.",
+    "facts": ["Strongest bite of all big cats", "Excellent swimmer", "Mostly solitary animal"],
+    "conservationStatus": "Near Threatened"
+  },
+  {
+    "id": 4,
+    "name": "Scarlet Macaw",
+    "species": "Ara macao",
+    "image": "https://images.unsplash.com/photo-1551335734-2c0d7a5d7a9c?w=400",
+    "habitat": "Rainforest",
+    "diet": "Herbivore",
+    "description": "The scarlet macaw is a large red, yellow, and blue South American parrot, a member of a large group of Neotropical parrots called macaws.",
+    "facts": ["Can live up to 75 years", "Fly up to 35 mph", "Mate for life"],
+    "conservationStatus": "Least Concern"
+  },
+  {
+    "id": 5,
+    "name": "Green Anaconda",
+    "species": "Eunectes murinus",
+    "image": "https://images.unsplash.com/photo-1572971804925-ec48e300e296?w=400",
+    "habitat": "Swamp",
+    "diet": "Carnivore",
+    "description": "The green anaconda is the heaviest and one of the longest known snake species.",
+    "facts": ["Can grow over 20 feet long", "Non-venomous constrictor", "Excellent swimmer"],
+    "conservationStatus": "Least Concern"
+  },
+  {
+    "id": 6,
+    "name": "Red-Eyed Tree Frog",
+    "species": "Agalychnis callidryas",
+    "image": "https://images.unsplash.com/photo-1559253664-ca249d4608c6?w=400",
+    "habitat": "Rainforest",
+    "diet": "Carnivore",
+    "description": "The red-eyed tree frog is an arboreal hylid native to Neotropical rainforests where it lives in trees and other vegetation.",
+    "facts": ["Nocturnal animal", "Bright colors warn predators", "Sticky pads on toes help climbing"],
+    "conservationStatus": "Least Concern"
+  },
+  {
+    "id": 7,
+    "name": "Asian Elephant",
+    "species": "Elephas maximus",
+    "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=400",
+    "habitat": "Forest",
+    "diet": "Herbivore",
+    "description": "The Asian elephant is the largest living land animal in Asia.",
+    "facts": ["Can eat up to 300 pounds of food daily", "Highly intelligent", "Live in matriarchal herds"],
+    "conservationStatus": "Endangered"
+  },
+  {
+    "id": 8,
+    "name": "Orangutan",
+    "species": "Pongo",
+    "image": "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=400",
+    "habitat": "Rainforest",
+    "diet": "Omnivore",
+    "description": "Orangutans are great apes native to the rainforests of Indonesia and Malaysia.",
+    "facts": ["One of humans' closest relatives", "Build nests to sleep in trees", "Use tools in wild"],
+    "conservationStatus": "Critically Endangered"
+  }
+]
