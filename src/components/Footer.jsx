@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Virtual Zoo</h3>
-          <p>Explore the wonders of the jungle from the comfort of your home.</p>
+          <h3>BioRealm</h3>
+          <p>Explore and learn about the wonders of the jungle from the comfort of your home.</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
@@ -20,8 +20,8 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contact</h4>
-          <p>Email: info@virtualzoo.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Email: helpdesk@BioRealm.com</p>
+          <p>Phone: 99999 55555</p>
         </div>
       </div>
       <div className="footer-bottom">

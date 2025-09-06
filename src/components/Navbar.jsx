@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="nav-container">
         <Link to="/" className="nav-logo">
           <span className="logo-icon">🌿</span>
-          Virtual Zoo
+          BioRealm
         </Link>
         <ul className="nav-menu">
           <li className="nav-item">

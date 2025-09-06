@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="homepage">
       <section className="hero">
         <div className="hero-content">
-          <h1>Welcome to the Virtual Zoo</h1>
+          <h1>Welcome to BioRealm</h1>
           <p>Explore the amazing world of jungle animals from around the globe</p>
           <Link to="/animals" className="cta-button">Explore Animals</Link>
         </div>

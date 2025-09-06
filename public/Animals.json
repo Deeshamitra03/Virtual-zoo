@@ -86,5 +86,170 @@
     "description": "Orangutans are great apes native to the rainforests of Indonesia and Malaysia.",
     "facts": ["One of humans' closest relatives", "Build nests to sleep in trees", "Use tools in wild"],
     "conservationStatus": "Critically Endangered"
-  }
+  },
+  {
+      "id": 9,
+      "name": "Quagga",
+      "species": "Equus quagga quagga",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Quagga_photo.jpg",
+      "habitat": "Grasslands of South Africa",
+      "diet": "Herbivore",
+      "description": "A zebra subspecies with striped front and plain brown back.",
+      "facts": ["Extinct in the late 19th century", "Resembled both zebras and horses", "Conservationists are trying to breed back similar animals"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 10,
+      "name": "Great Auk",
+      "species": "Pinguinus impennis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Great_Auk.jpg",
+      "habitat": "North Atlantic coasts",
+      "diet": "Carnivore (fish)",
+      "description": "A flightless seabird once found across the North Atlantic.",
+      "facts": ["Overhunted for feathers and food", "Last seen in 1844", "Similar to penguins but unrelated"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 11,
+      "name": "Moas",
+      "species": "Dinornithiformes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Dinornis.jpg",
+      "habitat": "New Zealand forests and grasslands",
+      "diet": "Herbivore",
+      "description": "Giant flightless birds native to New Zealand.",
+      "facts": ["Some species stood up to 3.6 meters tall", "Extinct by 1400 due to hunting", "Preyed on by Haast's eagle"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 12,
+      "name": "Baiji (Yangtze River Dolphin)",
+      "species": "Lipotes vexillifer",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Baiji_Lipotes_vexillifer.jpg",
+      "habitat": "Yangtze River, China",
+      "diet": "Carnivore (fish)",
+      "description": "A freshwater dolphin species declared functionally extinct.",
+      "facts": ["Known as the 'Goddess of the Yangtze'", "Last confirmed sighting in 2002", "Victim of industrialization"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 13,
+      "name": "Saola",
+      "species": "Pseudoryx nghetinhensis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Saola_in_Lao_Zoo.jpg",
+      "habitat": "Forests of Laos and Vietnam",
+      "diet": "Herbivore",
+      "description": "Nicknamed the 'Asian Unicorn,' one of the rarest animals alive.",
+      "facts": ["Discovered in 1992", "Extremely elusive", "Possibly fewer than 100 remain"],
+      "conservationStatus": "Critically Endangered"
+    },
+    {
+      "id": 14,
+      "name": "Saber-Toothed Cat",
+      "species": "Smilodon fatalis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Smilodon_fatalis.jpg",
+      "habitat": "Grasslands and forests of the Americas",
+      "diet": "Carnivore",
+      "description": "Famous Ice Age predator with long saber-like canine teeth.",
+      "facts": ["Could weigh up to 400 kg", "Extinct 10,000 years ago", "Likely ambush predator"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 15,
+      "name": "Axolotl",
+      "species": "Ambystoma mexicanum",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ambystoma_mexicanum_2.jpg",
+      "habitat": "Lakes and canals of Mexico",
+      "diet": "Carnivore (worms, insects, small fish)",
+      "description": "A unique amphibian known for retaining larval features into adulthood.",
+      "facts": ["Can regenerate entire limbs", "Critically endangered in the wild", "Important for medical research"],
+      "conservationStatus": "Critically Endangered"
+    },
+      {
+      "id": 16,
+      "name": "Woolly Mammoth",
+      "species": "Mammuthus primigenius",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Woolly_mammoth_%28Mammuthus_primigenius%29.jpg",
+      "habitat": "Tundra and grasslands of Eurasia and North America",
+      "diet": "Herbivore",
+      "description": "A giant Ice Age mammal covered with thick fur, closely related to modern elephants.",
+      "facts": ["Stood up to 4 meters tall", "Tusks grew over 4 meters long", "Extinct around 4,000 years ago"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 17,
+      "name": "Dodo",
+      "species": "Raphus cucullatus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Dodo_illustration.jpg",
+      "habitat": "Mauritius Island forests",
+      "diet": "Herbivore (fruits, seeds)",
+      "description": "A large flightless bird that became a symbol of extinction.",
+      "facts": ["Could weigh up to 15 kg", "Hunted by sailors and invasive animals", "Extinct by 1681"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 18,
+      "name": "Titanoboa",
+      "species": "Titanoboa cerrejonensis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Titanoboa_BW.jpg",
+      "habitat": "Tropical rainforests of ancient South America",
+      "diet": "Carnivore",
+      "description": "The largest snake ever discovered, growing over 12 meters long.",
+      "facts": ["Lived 60 million years ago", "Weighed more than 1,000 kg", "Could swallow large crocodiles whole"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 19,
+      "name": "Tyrannosaurus Rex",
+      "species": "Tyrannosaurus rex",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Tyrannosaurus_rex_Smithsonian.jpg",
+      "habitat": "Forests and river valleys of North America",
+      "diet": "Carnivore",
+      "description": "One of the largest and most powerful meat-eating dinosaurs.",
+      "facts": ["Up to 12 meters long", "Bite force over 8,000 pounds", "Lived 68–66 million years ago"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 20,
+      "name": "Pinta Island Tortoise",
+      "species": "Chelonoidis abingdonii",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lonesome_George_-_Galapagos_Tortoise.jpg",
+      "habitat": "Pinta Island, Galápagos",
+      "diet": "Herbivore",
+      "description": "A giant tortoise species known for 'Lonesome George,' the last of its kind.",
+      "facts": ["Shell length up to 1.5 meters", "Went extinct in 2012", "Symbol of conservation awareness"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 21,
+      "name": "Asian Elephant",
+      "species": "Elephas maximus",
+      "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=400",
+      "habitat": "Forests and grasslands of Asia",
+      "diet": "Herbivore",
+      "description": "The Asian elephant is the largest living land animal in Asia.",
+      "facts": ["Can eat up to 300 pounds of food daily", "Highly intelligent", "Live in matriarchal herds"],
+      "conservationStatus": "Endangered"
+    },
+    {
+      "id": 22,
+      "name": "Haast’s Eagle",
+      "species": "Hieraaetus moorei",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Haasts_Eagle.png",
+      "habitat": "Forests of New Zealand",
+      "diet": "Carnivore",
+      "description": "The largest eagle ever known, capable of hunting giant moa birds.",
+      "facts": ["Wingspan up to 3 meters", "Top predator of New Zealand", "Extinct around 1400 CE"],
+      "conservationStatus": "Extinct"
+    },
+    {
+      "id": 23,
+      "name": "Megalodon",
+      "species": "Otodus megalodon",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Megalodon_scale1.png",
+      "habitat": "Warm oceans worldwide",
+      "diet": "Carnivore",
+      "description": "The largest shark ever known, reaching lengths over 18 meters.",
+      "facts": ["Bite force of 40,000 pounds", "Ruled oceans 23–3.6 million years ago", "Fed on whales"],
+      "conservationStatus": "Extinct"
+    }
 ]
