@@ -38,7 +38,7 @@ const HomePage = () => {
         <h2>Jungle Conservation Matters</h2>
         <div className="stats-grid">
           <div className="stat">
-            <h3>8+</h3>
+            <h3>30+</h3>
             <p>Animal Species</p>
           </div>
           <div className="stat">
@@ -46,7 +46,7 @@ const HomePage = () => {
             <p>Different Habitats</p>
           </div>
           <div className="stat">
-            <h3>3</h3>
+            <h3>10+</h3>
             <p>Endangered Species</p>
           </div>
         </div>
